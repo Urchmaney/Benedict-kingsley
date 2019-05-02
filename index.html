@@ -16,10 +16,10 @@
     <label id="name-label">Name</label>
     <input type="text" id="name" placeholder="Name" required> <br>
 
-    <label id="email-label"></label>
+    <label id="email-label">Email</label>
     <input type="email" id="email" placeholder="Email" required> <br>
 
-    <label id="number-label"></label>
+    <label id="number-label">Number</label>
     <input type="number" id="number" placeholder="Enter a number" min="1" max="100">
 
     <select id="dropdown">
@@ -30,9 +30,9 @@
         Option 2
       </option>
     </select>
-    <input type="radio" name="names" id="radio1">
-    <input type="radio" name="names" id="radio2">
-    <input type="radio" name="names" id="radio3">
+    <input type="radio" name="names" id="radio1" value="cars">
+    <input type="radio" name="names" id="radio2" value="buses">
+    <input type="radio" name="names" id="radio3" value="flights">
     <label for="check1"> Cars </label>
     <input type="checkbox" name="check" id="check1" value="cars">
 
@@ -40,12 +40,14 @@
     <input type="checkbox" name="check" id="check2" value="buses">
 
     <label for="check1"> Flights </label>
-    <input type="checkbox" name="check" id="check3" value="flights">
+    <input type="checkbox" name="check" id="check3" value="flights"><br>
 
     <textarea name="comments" id="comment" cols="30" rows="10">
 
-    </textarea>
+    </textarea><br>
 
+
+    <input type="submit" id="submit" value="Submit">
   </form>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
