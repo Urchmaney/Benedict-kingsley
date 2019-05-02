@@ -24,3 +24,21 @@ body {
     height: 600px;
     padding-top: 20px;
 }
+
+survey-form input[type=text], input[type=email], input[type=number]{
+    display: inline-block;
+    border-radius: 2px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    
+}
+
+#submit{
+    background-color: #6C3A5C;
+    color: white;
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
